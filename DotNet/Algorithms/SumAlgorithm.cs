@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 
 class SumAlgorithm
 {
@@ -16,3 +16,4 @@ class SumAlgorithm
         Console.WriteLine($"{scores.Length}명의 점수중 80점 이상점수의 합은: {sum}");
     }
 }
+*/
