@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PerfectNumberAlgorithm</StartupObject>
+    <StartupObject>FindModeValue</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Algorithms\ArithmeticSequence.cs" />
     <Compile Include="Algorithms\CountAlgorithm\CountAlgorithm.cs" />
+    <Compile Include="Algorithms\FindMode.cs" />
     <Compile Include="Algorithms\PerfectNumberAlgorithm.cs" />
     <Compile Include="Algorithms\PrimeAlgorithm\PrimeAlgorithm.cs" />
     <Compile Include="Algorithms\PrimeAlgorithm\PrimeNumberCount.cs" />
