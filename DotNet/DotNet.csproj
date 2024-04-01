@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FindModeValue</StartupObject>
+    <StartupObject>Average</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\ArithmeticSequence.cs" />
+    <Compile Include="Algorithms\AverageAlgorithm.cs" />
     <Compile Include="Algorithms\CountAlgorithm\CountAlgorithm.cs" />
     <Compile Include="Algorithms\FindMode.cs" />
     <Compile Include="Algorithms\PerfectNumberAlgorithm.cs" />
