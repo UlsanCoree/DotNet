@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MaxAlgorithm</StartupObject>
+    <StartupObject>MinAlgorithm</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="Algorithms\CountAlgorithm\CountAlgorithm.cs" />
     <Compile Include="Algorithms\FindMode.cs" />
     <Compile Include="Algorithms\MaxAlgorithm.cs" />
+    <Compile Include="Algorithms\MinAlgorithm.cs" />
     <Compile Include="Algorithms\PerfectNumberAlgorithm.cs" />
     <Compile Include="Algorithms\PrimeAlgorithm\PrimeAlgorithm.cs" />
     <Compile Include="Algorithms\PrimeAlgorithm\PrimeNumberCount.cs" />

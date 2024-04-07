@@ -5,18 +5,19 @@ class MaxAlgorithm
 {
     static void Main()
     {
+        int max = int.MinValue;
+
         int[] numbers = { -10, -20, -5, -6, -3, -1 , -200 ,150};
 
-        int maxNum = numbers[0];
 
         for (int i = 0; i < numbers.Length; i++)
         {
-            if (numbers[i] > maxNum)
+            if (numbers[i] > max)
             {
-                maxNum = numbers[i];
+                max = numbers[i];
             }
         }
 
-        Console.WriteLine($"최댓값 : {maxNum}");
+        Console.WriteLine($"최댓값 : {max}");
     }
 }
