@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RankAlgorithm</StartupObject>
+    <StartupObject>SortAlgorithm</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +60,7 @@
     <Compile Include="Algorithms\PrimeAlgorithm\PrimeAlgorithm.cs" />
     <Compile Include="Algorithms\PrimeAlgorithm\PrimeNumberCount.cs" />
     <Compile Include="Algorithms\RankAlgorithm.cs" />
+    <Compile Include="Algorithms\SortAlgorithm.cs" />
     <Compile Include="Algorithms\SumAlgorithm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
